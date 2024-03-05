@@ -1,0 +1,10 @@
+{
+    "RefGenome_FA_PATH" : "/n/data1/hms/dbmi/farhat/mm774/References/GCF_000195955.2_ASM19595v2_genomic.fasta",
+    "RefGenome_GFF_PATH" : "/n/data1/hms/dbmi/farhat/mm774/References/GCF_000195955.2_ASM19595v2_genomic.gff",
+    "H37rv_DnaA_FA_PATH" : "/n/data1/hms/dbmi/farhat/mm774/Snakemake_Pipelines/PacmanPipe_DevRepo/references/DnaA_MTb_H37Rv_gene_v3.fasta",
+    "H37rv_GBK_PATH" : "/n/data1/hms/dbmi/farhat/mm774/References/GCF_000195955.2_NC_000962.3_genomic.gbk",
+    "Mcanettii_Ref_Asm_FA_PATH" : "/n/data1/hms/dbmi/farhat/mm774/References/Mycobacterium_canetti_NC_015848.1.fasta",
+    "Mcanettii_VCF" : "/n/data1/hms/dbmi/farhat/mm774/References/Mcanettii_ToH37rv_MM2_VCF/Mcanettii_ToH37rv.mm2.mpileup.call.AllPositions.vcf",            
+    "Mcanettii_SNP_Positions_TSV" : "/n/data1/hms/dbmi/farhat/mm774/References/Mcanettii_ToH37rv_MM2_VCF/Mcanettii_ToH37rv.mm2.AllSNPpositions.SNPs.tsv",
+    "Kraken2_DB_PATH" : "/n/data1/hms/dbmi/farhat/mm774/References/Kraken2_DB_Dir/Kraken2_DB",
+}

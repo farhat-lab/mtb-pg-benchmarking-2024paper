@@ -1,0 +1,364 @@
+{
+    "__default__" :
+    {
+        "t" : "0-00:4:30",
+        "n" : 1,
+        "c" : 1,
+        "p" : "short",
+        "mem" : "3500mb",
+        "o" : "O2logs/cluster/{rule}.{wildcards}.out",
+        "e" : "O2logs/cluster/{rule}.{wildcards}.out"
+    },
+    "combineAll_SNPpositions_mpileup_MM2_AsmToH37rv" :
+    {
+        "t" : "0-00:0:40",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "1000mb",
+        "o" : "O2logs/cluster/{rule}.out",
+        "e" : "O2logs/cluster/{rule}.out"
+    },
+    "Filter_PBMM2_mpileup_VarCalling_To_OnlySNPpositionsInUnionOfAllSNPs" :
+    {
+        "t" : "0-00:5:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "2000mb",
+    },
+    "FastLinCaller_AsmToH37Rv_MM2" :
+    {
+        "t" : "0-00:15:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "3000mb",
+    },
+    "convert_MergedVCF_To_FASTA_ALN" :
+    {
+        "t" : "0-00:8:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "1000mb",
+    },
+    "fasttree_GTR_from_MergedSNPs" :
+    {
+        "t" : "0-00:15:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4000mb",
+    },
+    "fasttree_GTR_from_MergedSNVs_10AmbFilt" :
+    {
+        "t" : "0-00:15:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4000mb",
+    },
+    "IQtree_GTR_from_MergedSNVs_10AmbFilt" :
+    {
+        "t" : "0-00:15:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4000mb",
+    },
+    "run_Gubbins_v32_Wi_mpileup_SNVs" :
+    {
+        "t" : "0-00:45:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4000mb",
+    },
+    "run_Gubbins_v32_Wi_mpileup_SNVs_10AmbThresh" :
+    {
+        "t" : "0-00:45:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4000mb",
+    },
+    "run_Gubbins_v321_ExtensiveSearch_Wi_mpileup_SNVs_10AmbThresh" :
+    {
+        "t" : "0-00:45:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4000mb",
+    },
+    "run_Gubbins_v321_ExtensiveSearch_TR05_PV01_Wi_mpileup_SNVs_10AmbThresh" :
+    {
+        "t" : "0-00:45:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4000mb",
+    },
+    "run_Gubbins_v321_ExtensiveSearch_TR05_PV05_Wi_mpileup_SNVs_10AmbThresh" :
+    {
+        "t" : "0-00:45:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4000mb",
+    },
+    "run_Gubbins_v321_ExtensiveSearch_PV01_Wi_mpileup_SNVs_10AmbThresh" :
+    {
+        "t" : "0-00:60:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4000mb",
+    },
+    "run_Gubbins_v321_ExtensiveSearch_PV01_Wi_mpileup_SNVs_10AmbThresh" :
+    {
+        "t" : "0-00:60:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4000mb",
+    },
+    "run_Gubbins_v321_ExtensiveSearch_MS4_Wi_mpileup_SNVs_10AmbThresh" :
+    {
+        "t" : "0-00:60:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4000mb",
+    },
+    "run_Gubbins_v321_ExtensiveSearch_MS5_Wi_mpileup_SNVs_10AmbThresh" :
+    {
+        "t" : "0-00:55:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "6000mb",
+    },
+    "run_Gubbins_v321_ExtensiveSearch_SmallWin_MS5_Wi_mpileup_SNVs_10AmbThresh" :
+    {
+        "t" : "0-01:55:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "6000mb",
+    },
+    "run_Gubbins_v321_ExtensiveSearch_SmallWin_MS4_Wi_mpileup_SNVs_10AmbThresh" :
+    {
+        "t" : "0-01:55:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "6000mb",
+    },
+    "HomologyMapping_Ref_WiTargetGenome" :
+    {
+        "t" : "0-00:4:30",
+        "n" : 1,
+        "c" : 1,
+        "p" : "short",
+        "mem" : "3500mb",
+    },
+    "SNPpar_ASR_v11" :
+    {
+        "t" : "0-00:35:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4G",
+    },
+    "SNPpar_ASR_v11_AnnaFix_MaxFix" :
+    {
+        "t" : "0-01:55:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "5G",
+    },
+    "SNPpar_ASR_v11_OG" :
+    {
+        "t" : "0-00:35:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4G",
+    },
+    "Bakta_Anno_WiH37Rv" :
+    {
+        "t" : "0-00:20:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "10G",
+    },
+    "Anno_H37Rv_WiBakta" :
+    {
+        "t" : "0-01:40:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "10G",
+    },
+    "Bakta_Anno_WiH37Rv_AAFASTA" :
+    {
+        "t" : "0-00:20:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "10G",
+    },
+    "Panaroo_StdParams_2Isolates" :
+    {
+        "t" : "0-00:15:0",
+        "n" : 2,
+        "p" : "short",
+        "mem" : "2G",
+    },
+    "Panaroo_StdParams_Strict_AllIsolates" :
+    {
+        "t" : "0-00:45:0",
+        "n" : 2,
+        "p" : "short",
+        "mem" : "5G",
+    },
+    "Panaroo_StdParams_Moderate_AllIsolates" :
+    {
+        "t" : "0-00:45:0",
+        "n" : 2,
+        "p" : "short",
+        "mem" : "5G",
+    },
+    "Panaroo_StdParams_Sensitive_AllIsolates" :
+    {
+        "t" : "0-00:45:0",
+        "n" : 2,
+        "p" : "short",
+        "mem" : "5G",
+    },
+    "Roary_DefaultParams_AllIsolates" :
+    {
+        "t" : "0-03:25:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "7G",
+    },
+    "Roary_NoSplitParalogs_AllIsolates" :
+    {
+        "t" : "0-03:25:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "7G",
+    },
+    "Roary_NoSplitParalogs_I90_AllIsolates" :
+    {
+        "t" : "0-03:25:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "7G",
+    },
+    "create_InputPATHInfo_Bakta_GBFF" :
+    {
+        "t" : "0-00:1:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "100mb",
+    },
+    "mergeInputGBFF_PATHs_To_TSV_ForPpanggolin_AllIsolates" :
+    {
+        "t" : "0-00:1:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "100mb",
+    },
+    "run_Ppanggolin_DefaultParam_AllIsolates" :
+    {
+        "t" : "0-02:45:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "8G",
+    },
+    "get_PangenomeContent_Ppanggolin_AllIsolates" :
+    {
+        "t" : "0-00:1:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "1000mb",
+    },
+    "mergeInputGBFF_PATHs_To_TSV_ForPpanggolin_2Isolates" :
+    {
+        "t" : "0-00:1:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "100mb",
+    },
+    "run_Ppanggolin_DefaultParam_2Isolates" :
+    {
+        "t" : "0-00:45:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "8G",
+    },
+    "get_PangenomeContent_Ppanggolin_2Isolates" :
+    {
+        "t" : "0-00:1:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "1000mb",
+    },
+    "Panaroo_StdParams_48CIIsolates" :
+    {
+        "t" : "0-00:35:0",
+        "n" : 2,
+        "p" : "short",
+        "mem" : "3G",
+    },
+    "CleanUp_Bakta_GFF" :
+    {
+        "t" : "0-00:2:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "1G",
+    },
+    "create_TMP_Input_Asm_FA" :
+    {
+        "t" : "0-00:1:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "100mb",
+    },
+    "run_Minigraph_WiH37RvRef" :
+    {
+        "t" : "0-00:10:0",
+        "n" : 4,
+        "p" : "short",
+        "mem" : "2G",
+    },
+    "minigraph_CallSVs" :
+    {
+        "t" : "0-00:1:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "2G",
+    },
+    "run_Gubbins_v321_ExtensiveSearch_SmallWin_MS4_Wi_mpileup_SNVs_10AmbThresh_asm20" :
+    {
+        "t" : "0-01:55:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "6000mb",
+    },
+    "fasttree_GTR_from_MergedSNVs_10AmbFilt_asm20" :
+    {
+        "t" : "0-00:15:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4000mb",
+    },
+    "IQtree_GTR_from_MergedSNVs_10AmbFilt" :
+    {
+        "t" : "0-00:25:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "2500mb",
+    },
+    "IQtree_GTR_from_MergedSNVs_PLCFilt" :
+    {
+        "t" : "0-00:25:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "2500mb",
+    },
+    "IQtree_GTR_from_MergedSNVs_10AmbFilt_RLCandLowPmap_Filt" :
+    {
+        "t" : "0-00:25:00",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "2500mb",
+    },
+}
+
+
+
+
+
+
