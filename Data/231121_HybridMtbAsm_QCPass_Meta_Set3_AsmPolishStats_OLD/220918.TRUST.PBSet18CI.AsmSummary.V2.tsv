@@ -1,0 +1,9 @@
+SampleID	numContigs_Complete	circContig_Length	circContig_Cov	Flye_EstimatedCov	Flye_ReadLen_N50	Flye_ReadLen_N90	Lineage_Asm	Lineage_AsmPP	FlyeI3_dnaA_Found	FlyeI3M_dnaA_Found	FlyeI3MPP_dnaA_Found	IlluminaCov_To_ONTAsm	NumChanges_PilonPolished	NumSNPs_PilonPolished	NumTotalInsertions_PilonPolished	Num1bpInsertion_PilonPolished	Num2bpInsertion_PilonPolished	NumTotalDeletions_PilonPolished	Num1bpDeletion_PilonPolished	PrimaryLineage_Asm	Dataset_Tag	PatientID	IsolateNum	MFS_ID
+S0070-08	1	4424401	69	76	2414	1193	lineage2.2.1	lineage2.2.1	True				1	0	0	0	0	1	1	lineage2	TRUST_PB_Set1	S0070	08	MFS-42
+S0085-01	1	4417383	39	38	3000	1431	lineage2.2.1.1	lineage2.2.1.1	True				1	0	1	1	0	0	0	lineage2	TRUST_PB_Set1	S0085	01	MFS-51
+S0107-01	1	4416462	64	62	2816	1350	lineage2.2.1.1	lineage2.2.1.1	True				0	0	0	0	0	0	0	lineage2	TRUST_PB_Set1	S0107	01	MFS-58
+S0089-01	1	4415290	40	39	2741	1346	lineage2.2.1.1	lineage2.2.1.1	True				1	0	0	0	0	1	1	lineage2	TRUST_PB_Set1	S0089	01	MFS-54
+S0256-08	1	4413248	53	51	2916	1452	lineage2.2.1.1	lineage2.2.1.1	True				0	0	0	0	0	0	0	lineage2	TRUST_PB_Set1	S0256	08	MFS-173
+S0123-01	1	4402640	57	55	3084	1478	lineage4.4.1.1	lineage4.4.1.1	True				1	0	1	1	0	0	0	lineage4	TRUST_PB_Set1	S0123	01	MFS-60
+S0106-01	1	4412324	59	57	3123	1497	lineage4.1.1.3	lineage4.1.1.3	True				0	0	0	0	0	0	0	lineage4	TRUST_PB_Set1	S0106	01	MFS-56
+S0262-02	1	4402641	44	42	3751	1676	lineage4.4.1.1	lineage4.4.1.1	True				0	0	0	0	0	0	0	lineage4	TRUST_PB_Set1	S0262	02	MFS-181

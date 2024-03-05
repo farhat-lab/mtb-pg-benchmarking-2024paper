@@ -10,7 +10,6 @@ All initial bioinformatics processing (such as assembly, alignment, annotation, 
 - [Results](#Results)
 - [License](#License)
 
-
 ## Installation
 All dependencies needed to reproduce this analysis can be installed via [Conda](https://docs.conda.io/en/latest/) .
 🚧 Check back soon 🚧
