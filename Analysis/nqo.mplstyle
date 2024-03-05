@@ -1,0 +1,37 @@
+#https://matplotlib.org/stable/users/explain/customizing.html#matplotlibrc-sample
+#https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit/tree/master/Colours
+### FIGURE
+figure.facecolor: none
+figure.dpi: 300
+figure.figsize: 4.25, 2.5
+### LINES
+lines.linewidth: 1
+### PATCHES
+patch.facecolor: 0072B2
+### LEGEND
+legend.fontsize: 7
+### TICKS
+xtick.direction: out
+ytick.direction: out
+xtick.major.width: .5
+ytick.major.width: .5
+### FONTS
+font.family: sans-serif
+font.sans-serif: Open Sans
+font.style: normal
+font.weight: light
+font.size: 10
+### LAYOUT
+figure.autolayout: True
+### SVG
+svg.fonttype: none
+### AXES
+axes.grid: False
+axes.facecolor: none
+axes.linewidth: .5
+axes.labelsize: 10
+axes.spines.top: True
+axes.spines.right: True
+axes.labelweight: medium
+#'B10026'
+axes.prop_cycle: cycler('color', ['065275', '029099', '7CCBA1', 'FDDE9C', 'F0746E', 'DC3978', '7C1E6F'])
