@@ -1,0 +1,13 @@
+
+__pycache__/
+dist
+.pytest_cache/
+.venv
+**/.ipynb_checkpoints
+
+
+# Mac OS generated files #
+######################
+.DS_Store
+
+
