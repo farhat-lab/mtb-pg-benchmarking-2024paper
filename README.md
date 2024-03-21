@@ -1,7 +1,7 @@
 # Manuscript Code Repository: *Analysis of the limited M. tuberculosis pangenome reveals potential pitfalls of pan-genome analysis approaches*
 This repository contains all code and bioinformatics pipelines to reproduce the analysis of *Analysis of the limited M. tuberculosis pangenome reveals potential pitfalls of pan-genome analysis approaches*. <br>
 
-All initial bioinformatics processing (such as assembly, alignment, annotation, and pan-genome estimation) was implemented using the [Snakemake](https://snakemake.github.io/) workflow system, while downstream data processing and analysis is available in Python based Jupyter notebooks.
+All initial bioinformatics processing (such as assembly, alignment, annotation, and pan-genome estimation) was implemented using the [Snakemake](https://snakemake.github.io/) workflow engine, while downstream data processing and analysis is available in Python based Jupyter notebooks.
 
 ## Contents
 - [Installation](#Installation)
