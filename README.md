@@ -45,8 +45,10 @@ Refer to the Analysis directory's [README.md](Analysis/) for a detailed overview
 
 
 ## Curated Datasets
-All Hybrid and short-read genome assemblies (w/ annotations) used in this work are organized and made easily accessible for future use.
-Additionally, the (relatively) large outputs of the various pan-genome analyses are made easily available via Zenodo & Harvard Dataverse.
+All Hybrid and short-read genome assemblies (along with annotations) used in this work are organized and made easily accessible for future use.
+Additionally, the (relatively) large outputs of the various pan-genome analyses are made easily available via Zenodo.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10846276.svg)](https://doi.org/10.5281/zenodo.10846276)
 
 ### Genome assemblies used
 🚧 Check back soon 🚧
