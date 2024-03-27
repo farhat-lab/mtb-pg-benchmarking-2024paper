@@ -8,9 +8,9 @@ If a specific Conda environment was used for a step, a .yml file containing soft
 ### Overview of snakemake pipelines
 
 #### a) Genome Assembly & Curation
-1 - `Mtb.Generate.HybridAsm.PacBioRSII.smk`: Pipeline for hybrid assembly of *Mtb* isolates sequenced with both PacBio (RSII) and Illumina WGS
+1 - `Mtb.Generate.HybridAsm.PacBioRSII.smk`: Pipeline for hybrid assembly of *Mtb* isolates sequenced with both PacBio (Subreads, RS II & Sequel II) and Illumina WGS
 
-2 - `Mtb.Generate.HybridAsm.PacBioHiFi.smk`: Pipeline for hybrid assembly of *Mtb* isolates sequenced with both PacBio (HiFi, Sequel II) and Illumina WGS
+2 - `Mtb.Generate.HybridAsm.PacBioHiFi.smk`: Pipeline for hybrid assembly of *Mtb* isolates sequenced with both PacBio (CCS/HiFi, Sequel II) and Illumina WGS
 
 3 - `Mtb.Generate.HybridAsm.ONT9.4.1.smk`: Pipeline for hybrid assembly of *Mtb* isolates sequenced with both Oxford Nanopore (9.4.1) and Illumina WGS
 
