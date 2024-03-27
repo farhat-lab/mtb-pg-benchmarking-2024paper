@@ -12,7 +12,6 @@ All initial bioinformatics processing (such as assembly, alignment, annotation, 
 
 ## Installation
 All dependencies needed to reproduce this analysis can be installed via [Conda](https://docs.conda.io/en/latest/) .
-🚧 Check back soon 🚧
 ```
 # 1) Clone repository
 git clone https://github.com/farhat-lab/mtb-pg-benchmarking-2024paper
