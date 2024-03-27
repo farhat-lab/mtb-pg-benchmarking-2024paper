@@ -20,7 +20,7 @@ git clone https://github.com/farhat-lab/mtb-pg-benchmarking-2024paper
 # 2) Create a conda environment named 'CoreEnv_PG_V1'
 cd mtb-pg-benchmarking-2024paper/
 
-conda env create --file CondaEnvs/_____.yml -n CoreEnv_PG_V1
+conda env create --file CondaEnvs/CoreEnv_PG_V1.yml -n CoreEnv_PG_V1
 
 # 3) Activate environment (used for SnakeMake pipeline and data analysis)
 conda activate CoreEnv_PG_V1
