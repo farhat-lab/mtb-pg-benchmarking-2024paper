@@ -1,4 +1,6 @@
-
+# 5.Ecoli.Generate.SRAsms.smk
+### Snakemake - Run pipeline for short-read de novo assembly of 50 E. coli isolates (From Shaw et. al. 2021)
+### Maximillian Marin (mgmarin@g.harvard.edu)
 
 ### Import Statements ###
 import pandas as pd
@@ -90,7 +92,7 @@ rule unicycler_SPAdes_Assemble_IlluminaWGS:
     output:
         assembly_GFA = output_Dir + "/SR_DataProcessing/{sampleID_WiIll}/IlluminaWGS/Unicycler_SPAdesAssembly/assembly.gfa",
         assembly_fa = output_Dir + "/SR_DataProcessing/{sampleID_WiIll}/IlluminaWGS/Unicycler_SPAdesAssembly/assembly.fasta",
-    #conda: "CondaEnvs/unicycler_4_8.nobuilds.yml"
+    conda: "CondaEnvs/unicycler_4_8.nobuilds.yml"
     threads: 8
     params:
         Unicycler_OutputDir_PATH = output_Dir + "/SR_DataProcessing/{sampleID_WiIll}/IlluminaWGS/Unicycler_SPAdesAssembly/"

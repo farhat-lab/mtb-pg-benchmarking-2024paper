@@ -1,0 +1,14 @@
+name: Panaroo_1_3_4
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+  - r
+dependencies:
+  - panaroo==1.3.4
+  - clustalo
+  - minigraph
+  - samtools
+  - bcftools
+  - roary
+prefix: /home/mm774/conda3/envs/Panaroo_1_3_4

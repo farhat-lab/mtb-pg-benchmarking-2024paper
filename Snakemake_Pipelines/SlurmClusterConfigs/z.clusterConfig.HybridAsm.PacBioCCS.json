@@ -1,0 +1,161 @@
+{
+    "__default__" :
+    {
+        "t" : "0-00:5:0",
+        "n" : 1,
+        "c" : 1,
+        "p" : "short",
+        "mem" : "3500mb",
+        "o" : "O2logs/cluster/{rule}.{wildcards}.out",
+        "e" : "O2logs/cluster/{rule}.{wildcards}.out"
+    },
+    "flye_Assemble_PB_CCS" :
+    {
+        "t" : "0-2:40:0",
+        "n" : 10,
+        "p" : "short",
+        "mem" : "24G",
+    },
+    "CP_PacBio_FlyeAssembly_To_I3_Dir" :
+    {
+        "t" : "0-0:1:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "500mb",
+    },
+    "output_CircularContigs" :
+    {
+        "t" : "0-0:01:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "1G",
+    },
+    "circlator_FixStart_DnaA" :
+    {
+        "t" : "0-00:20:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4G",
+    },
+    "trimmomatic_Illumina_PE_Trimming" :
+    {
+        "t" : "0-00:30:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "5G",
+    },
+    "trimmomatic_Illumina_PE_Trimming_V2" :
+    {
+        "t" : "0-00:40:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "7G",
+    },    
+    "bwa_map_IllPE_AlignTo_I3_Assembly" :
+    {
+        "t" : "0-00:30:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "10G",
+    },
+    "samtools_ViewAndSort_IllPE_AlignTo_I3_Assembly" :
+    {
+        "t" : "0-00:15:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "8G",
+    },
+    "picard_RemoveDup_IllPE_AlnTo_I3_Asm" :
+    {
+        "t" : "0-00:25:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "8G",
+    },
+    "pilon_IllPE_Polishing_I3_Asm" :
+    {
+        "t" : "0-01:59:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "14G",
+    },
+    "nanoplot_QC" :
+    {
+        "t" : "0-00:20:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "2500mb",
+    },
+    "align_PacBio_Subreads_To_H37Rv_Minimap2" :
+    {
+        "t" : "0-1:05:0",
+        "n" : 10,
+        "p" : "short",
+        "mem" : "10G",
+    },
+    "align_PacBio_CCS_Reads_To_H37Rv_Minimap2" :
+    {
+        "t" : "0-0:25:0",
+        "n" : 10,
+        "p" : "short",
+        "mem" : "6G",
+    },
+    "unicycler_SPAdes_Assemble_IlluminaWGS":
+    {
+        "t" : "0-5:30:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "25G",
+    },
+    "Filt_Reads_MTBCandAbove_Only" :
+    {
+        "t" : "0-0:25:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "2G",
+    },
+    "Kraken2_Illumina_PE" :
+    {
+        "t" : "0-00:30:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "55G",
+    },
+    "unicycler_SPAdes_SR_Asm_KrakFiltReads" :
+    {
+        "t" : "0-3:30:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "24G",
+    },
+    "unicycler_v048_SPAdes_SR_Asm_KrakFiltReads" :
+    {
+        "t" : "0-4:30:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "22G",
+    },
+    "fastp_Illumina_PE_Trim" :
+    {
+        "t" : "0-00:22:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "3G",
+    },
+    "Kraken2_SRAsm" :
+    {
+        "t" : "0-00:3:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "55G",
+    },
+    "FastLinCaller_I3Asm_MM2" :
+    {
+        "t" : "0-00:2:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "700mb",
+    },
+}
+
+

@@ -1,8 +1,5 @@
-
-# PMP_SM - Preprocessing for merging PacBio FQs (Any # of FQs to single merged FQ for one isolate)
-
-
-# This is a test run of the merging approach for FQs
+# 10.Ecoli.HybridAsms.PGAnalysis.smk
+### Snakemake pipeline for performing pan-genome analysis of all E. coli hybrid assemblies (N = 50)
 
 
 ### Import Statements ###

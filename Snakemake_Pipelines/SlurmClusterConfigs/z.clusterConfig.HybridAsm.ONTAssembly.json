@@ -1,0 +1,279 @@
+{
+    "__default__" :
+    {
+        "t" : "0-00:6:0",
+        "n" : 1,
+        "c" : 1,
+        "p" : "short",
+        "mem" : "3400mb",
+        "o" : "O2logs/cluster/{rule}.{wildcards}.out",
+        "e" : "O2logs/cluster/{rule}.{wildcards}.out"
+    },
+    "flye_Assemble_ONTraw" :
+    {
+        "t" : "0-2:30:0",
+        "n" : 10,
+        "p" : "short",
+        "mem" : "20G",
+    },
+    "flye_Assemble_ONTraw_V29" :
+    {
+        "t" : "0-2:15:0",
+        "n" : 10,
+        "p" : "short",
+        "mem" : "20G",
+    },
+    "flye_Assemble_PBraw" :
+    {
+        "t" : "0-5:30:0",
+        "n" : 10,
+        "p" : "short",
+        "mem" : "70G",
+    },
+    "CP_FlyeAssembly_To_I3_Dir" :
+    {
+        "t" : "0-0:1:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "500mb",
+    },
+    "flye_Assemble_PB_CCS" :
+    {
+        "t" : "0-4:30:0",
+        "n" : 10,
+        "p" : "short",
+        "mem" : "30G",
+    },
+    "align_ONT_Reads_To_H37Rv_Minimap2" :
+    {
+        "t" : "0-0:15:0",
+        "n" : 4,
+        "p" : "short",
+        "mem" : "3G",
+    },
+    "output_CircularContigs" :
+    {
+        "t" : "0-0:01:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "1G",
+    },
+    "circlator_FixStart_DnaA" :
+    {
+        "t" : "0-00:20:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4G",
+    },
+    "circlator_FixStart_DnaA_UseMedakaPolishedAsm" :
+    {
+        "t" : "0-00:8:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "3G",
+    },
+    "circlator_FixStart_DnaA_Use_I3MPP_Asm" :
+    {
+        "t" : "0-00:8:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "2G",
+    },
+
+    "Medaka_Polish_FlyeAsm" :
+    {
+        "t" : "0-00:55:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "12G",
+    },
+    "bwa_map_IllPE_AlignTo_I3_Assembly" :
+    {
+        "t" : "0-00:20:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "8G",
+    },
+    "samtools_ViewAndSort_IllPE_AlignTo_I3_Assembly" :
+    {
+        "t" : "0-00:15:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "8G",
+    },
+    "picard_RemoveDup_IllPE_AlnTo_I3M_Asm" :
+    {
+        "t" : "0-00:15:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "5G",
+    },
+    "pilon_IllPE_Polishing_I3M_Asm" :
+    {
+        "t" : "0-01:59:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "16G",
+    },
+    "bwa_idx_ref_FlyeAsm_I3MPP" :
+    {
+        "t" : "0-0:5:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "2G",
+    },
+    "bwa_mem_AlnAll_ForPolyPolish" :
+    {
+        "t" : "0-00:15:0",
+        "n" : 16,
+        "p" : "short",
+        "mem" : "4G",
+    },
+    "polypolish_InsertFilter" :
+    {
+        "t" : "0-00:6:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "5G",
+    },
+    "polypolish_Polish_FlyeI3MPP_Asm" :
+    {
+        "t" : "0-00:15:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4G",
+    },
+    "Prokka_Anno_I3_PilonPolished" :
+    {
+        "t" : "0-00:20:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "6G",
+    },
+    "CP_PacBio_FlyeAssembly_To_I3_Dir" :
+    {
+        "t" : "0-00:1:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "500mb",
+    },
+    "nanoplot_QC" :
+    {
+        "t" : "0-00:20:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "2500mb",
+    },
+    "align_PacBio_Subreads_To_H37Rv_Minimap2" :
+    {
+        "t" : "0-1:05:0",
+        "n" : 10,
+        "p" : "short",
+        "mem" : "10G",
+    },
+    "align_PacBio_CCS_Reads_To_H37Rv_Minimap2" :
+    {
+        "t" : "0-0:25:0",
+        "n" : 10,
+        "p" : "short",
+        "mem" : "4G",
+    },
+    "unicycler_SPAdes_Assemble_IlluminaWGS" :
+    {
+        "t" : "0-3:30:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "14G",
+    },
+    "Filt_Reads_MTBCandAbove_Only" :
+    {
+        "t" : "0-0:25:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "2G",
+    },
+    "Kraken2_Illumina_PE" :
+    {
+        "t" : "0-00:30:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "55G",
+    },
+    "unicycler_SPAdes_SR_Asm_KrakFiltReads" :
+    {
+        "t" : "0-2:30:0",
+        "n" : 4,
+        "p" : "short",
+        "mem" : "14G",
+    },
+    "unicycler_v048_SPAdes_SR_Asm_KrakFiltReads" :
+    {
+        "t" : "0-3:30:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "18G",
+    },
+    "ratt_annotation" :
+    {
+        "t" : "0-2:15:00",
+        "n" : 1,
+        "p" : "priority",
+        "mem" : "8000mb",
+    },
+    "Bakta_Anno_WiH37Rv" :
+    {
+        "t" : "0-00:20:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "10G",
+    },
+    "Bakta_v1_6_1_Anno_WiH37Rv" :
+    {
+        "t" : "0-00:40:0",
+        "n" : 4,
+        "p" : "short",
+        "mem" : "16G",
+    },
+    "Prokka_Anno_WiH37Rv" :
+    {
+        "t" : "0-00:30:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "10G",
+    },
+    "align_ONT_Reads_To_H37Rv_Minimap2" :
+    {
+        "t" : "0-00:16:0",
+        "n" : 4,
+        "p" : "short",
+        "mem" : "4G",
+    },
+    "fastp_Illumina_PE_Trim" :
+    {
+        "t" : "0-00:22:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "3G",
+    },
+    "trimmomatic_Illumina_PE_Trimming" :
+    {
+        "t" : "0-00:25:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "3G",
+    },
+    "trimmomatic_Illumina_PE_Trimming_V2" :
+    {
+        "t" : "0-01:15:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "4G",
+    },
+    "Kraken2_SRAsm" :
+    {
+        "t" : "0-00:6:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "55G",
+    },
+}

@@ -1,0 +1,47 @@
+{
+    "__default__" :
+    {
+        "t" : "0-00:4:30",
+        "n" : 1,
+        "c" : 1,
+        "p" : "short",
+        "mem" : "3000mb",
+        "o" : "O2logs/cluster/{rule}.{wildcards}.out",
+        "e" : "O2logs/cluster/{rule}.{wildcards}.out"
+    },
+    "download_FQ_FromSRA_RunID":
+    {
+        "t" : "0-00:30:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "750mb",
+    },
+    "GZIP_Illumina_FQs" :
+    {
+        "t" : "0-00:15:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "1G",
+    },
+    "fastp_Illumina_PE_Trim" :
+    {
+        "t" : "0-00:22:0",
+        "n" : 1,
+        "p" : "short",
+        "mem" : "3G",
+    },
+    "unicycler_SPAdes_Assemble_IlluminaWGS" :
+    {
+        "t" : "0-3:30:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "14G",
+    },
+    "Bakta_Anno_SRAsm" :
+    {
+        "t" : "0-00:40:0",
+        "n" : 8,
+        "p" : "short",
+        "mem" : "14G",
+    },
+}

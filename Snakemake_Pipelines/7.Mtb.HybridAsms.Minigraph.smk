@@ -1,4 +1,5 @@
-# Minigraph analysis of H37Rv (Reference) & 151 Mtb genomes (complete hybrid assemblies)
+# 7.Mtb.HybridAsms.Minigraph.smk
+### Minigraph analysis of H37Rv (Reference) & 151 Mtb genomes (complete hybrid assemblies)
 
 
 ### Import Statements ###

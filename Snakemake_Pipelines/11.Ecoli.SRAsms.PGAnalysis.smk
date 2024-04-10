@@ -1,3 +1,6 @@
+# 11.Ecoli.SRAsms.PGAnalysis.smk
+### Snakemake pipeline for performing pan-genome analysis of all E. coli SHORT-READ assemblies (N = 151)
+
 
 
 ### Import Statements ###
