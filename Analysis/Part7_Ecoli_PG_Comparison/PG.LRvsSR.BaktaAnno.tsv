@@ -1,0 +1,15 @@
+PangenomeTool	SeqType	Method	Total genes	Core genes	Accessory genes	Weight
+Panaroo	LongRead	Panaroo_Strict_MergeParalogs	14410	3035	11375	10688.5
+Panaroo	ShortRead	Panaroo_Strict_MergeParalogs	12836	2834	10002	10688.5
+Panaroo	LongRead	Panaroo_Moderate_MergeParalogs	14641	3036	11605	11116.5
+Panaroo	ShortRead	Panaroo_Moderate_MergeParalogs	13462	2834	10628	11116.5
+Panaroo	LongRead	Panaroo_Sensitive_MergeParalogs	15032	3036	11996	12343.0
+Panaroo	ShortRead	Panaroo_Sensitive_MergeParalogs	15524	2834	12690	12343.0
+Roary	LongRead	Roary_NoSplitParalogs_I80	13312	3035	10277	10436.0
+Roary	ShortRead	Roary_NoSplitParalogs_I80	13420	2825	10595	10436.0
+Roary	LongRead	Roary_NoSplitParalogs_I90	14851	2915	11936	12079.0
+Roary	ShortRead	Roary_NoSplitParalogs_I90	14933	2711	12222	12079.0
+Roary	LongRead	Roary_NoSplitParalogs	17783	2484	15299	15405.0
+Roary	ShortRead	Roary_NoSplitParalogs	17825	2314	15511	15405.0
+Roary	LongRead	Roary_Default	21400	2394	19006	18246.5
+Roary	ShortRead	Roary_Default	19721	2234	17487	18246.5

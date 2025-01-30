@@ -1,0 +1,107 @@
+Method,SeqType,DataSet,Annotation,PangenomeTool,Accessory genes,Core genes,Total genes,Method_V2
+Panaroo_Strict_MergeParalogs,LongRead,All,Bakta,Panaroo,11375,3035,14410,"Panaroo 
+ (Strict & MergeParalogs)"
+Panaroo_Strict_MergeParalogs,ShortRead,All,Bakta,Panaroo,10002,2834,12836,"Panaroo 
+ (Strict & MergeParalogs)"
+Panaroo_Moderate_MergeParalogs,LongRead,All,Bakta,Panaroo,11605,3036,14641,"Panaroo 
+ (Moderate & MergeParalogs)"
+Panaroo_Moderate_MergeParalogs,ShortRead,All,Bakta,Panaroo,10628,2834,13462,"Panaroo 
+ (Moderate & MergeParalogs)"
+Panaroo_Sensitive_MergeParalogs,LongRead,All,Bakta,Panaroo,11996,3036,15032,"Panaroo 
+ (Sensitive & MergeParalogs)"
+Panaroo_Sensitive_MergeParalogs,ShortRead,All,Bakta,Panaroo,12690,2834,15524,"Panaroo 
+ (Sensitive & MergeParalogs)"
+Panaroo_Strict,LongRead,All,Bakta,Panaroo,12667,3034,15701,"Panaroo 
+ (Strict)"
+Panaroo_Strict,ShortRead,All,Bakta,Panaroo,10110,2834,12944,"Panaroo 
+ (Strict)"
+Panaroo_Moderate,LongRead,All,Bakta,Panaroo,12901,3035,15936,"Panaroo 
+ (Moderate)"
+Panaroo_Moderate,ShortRead,All,Bakta,Panaroo,10753,2834,13587,"Panaroo 
+ (Moderate)"
+Panaroo_Sensitive,LongRead,All,Bakta,Panaroo,13310,3035,16345,"Panaroo 
+ (Sensitive)"
+Panaroo_Sensitive,ShortRead,All,Bakta,Panaroo,12869,2834,15703,"Panaroo 
+ (Sensitive)"
+Roary_NoSplitParalogs_I80,ShortRead,All,Bakta,Roary,10595,2825,13420,"Roary 
+ (MergeParalogs & I80)"
+Roary_NoSplitParalogs_I80,LongRead,All,Bakta,Roary,10277,3035,13312,"Roary 
+ (MergeParalogs & I80)"
+Roary_NoSplitParalogs_I90,LongRead,All,Bakta,Roary,11936,2915,14851,"Roary 
+ (MergeParalogs & I90)"
+Roary_NoSplitParalogs_I90,ShortRead,All,Bakta,Roary,12222,2711,14933,"Roary 
+ (MergeParalogs & I90)"
+Roary_NoSplitParalogs,ShortRead,All,Bakta,Roary,15511,2314,17825,"Roary 
+ (MergeParalogs)"
+Roary_NoSplitParalogs,LongRead,All,Bakta,Roary,15299,2484,17783,"Roary 
+ (MergeParalogs)"
+Roary_Default,ShortRead,All,Bakta,Roary,17487,2234,19721,"Roary 
+ (Default)"
+Roary_Default,LongRead,All,Bakta,Roary,19006,2394,21400,"Roary 
+ (Default)"
+Ppanggolin_I0.80C0.60,ShortRead,All,Bakta,Ppanggolin,11311,2820,14131,Ppanggolin (I0.80-C0.60)
+Ppanggolin_I0.80C0.60,LongRead,All,Bakta,Ppanggolin,11006,3029,14035,Ppanggolin (I0.80-C0.60)
+Ppanggolin_I0.80C0.80,LongRead,All,Bakta,Ppanggolin,11371,3009,14380,Ppanggolin (I0.80-C0.80)
+Ppanggolin_I0.80C0.80,ShortRead,All,Bakta,Ppanggolin,11619,2803,14422,Ppanggolin (I0.80-C0.80)
+Ppanggolin_I0.80C0.90,ShortRead,All,Bakta,Ppanggolin,11986,2773,14759,Ppanggolin (I0.80-C0.90)
+Ppanggolin_I0.80C0.90,LongRead,All,Bakta,Ppanggolin,11816,2972,14788,Ppanggolin (I0.80-C0.90)
+Ppanggolin_I0.90C0.60,ShortRead,All,Bakta,Ppanggolin,13051,2703,15754,Ppanggolin (I0.90-C0.60)
+Ppanggolin_I0.90C0.60,LongRead,All,Bakta,Ppanggolin,12779,2905,15684,Ppanggolin (I0.90-C0.60)
+Ppanggolin_I0.90C0.80,ShortRead,All,Bakta,Ppanggolin,13329,2689,16018,Ppanggolin (I0.90-C0.80)
+Ppanggolin_I0.90C0.80,LongRead,All,Bakta,Ppanggolin,13115,2887,16002,Ppanggolin (I0.90-C0.80)
+Ppanggolin_I0.90C0.90,LongRead,All,Bakta,Ppanggolin,13532,2855,16387,Ppanggolin (I0.90-C0.90)
+Ppanggolin_I0.90C0.90,ShortRead,All,Bakta,Ppanggolin,13661,2663,16324,Ppanggolin (I0.90-C0.90)
+Ppanggolin_I0.98C0.60,ShortRead,All,Bakta,Ppanggolin,24451,1431,25882,Ppanggolin (I0.98-C0.60)
+Ppanggolin_I0.98C0.60,LongRead,All,Bakta,Ppanggolin,24547,1529,26076,Ppanggolin (I0.98-C0.60)
+Ppanggolin_I0.98C0.80,LongRead,All,Bakta,Ppanggolin,24801,1519,26320,Ppanggolin (I0.98-C0.80)
+Ppanggolin_I0.98C0.80,ShortRead,All,Bakta,Ppanggolin,24711,1423,26134,Ppanggolin (I0.98-C0.80)
+Ppanggolin_I0.98C0.90,LongRead,All,Bakta,Ppanggolin,25101,1512,26613,Ppanggolin (I0.98-C0.90)
+Ppanggolin_I0.98C0.90,ShortRead,All,Bakta,Ppanggolin,24951,1418,26369,Ppanggolin (I0.98-C0.90)
+Pangene_0.9.Miniprot0.95,ShortRead,All,Bakta,Pangene,9241,2731,11972,"Pangene 
+ (C0.9-M0.95)"
+Pangene_0.9.Miniprot0.95,LongRead,All,Bakta,Pangene,9477,3014,12491,"Pangene 
+ (C0.9-M0.95)"
+Pangene_0.9.Miniprot0.98,LongRead,All,Bakta,Pangene,9538,3011,12549,"Pangene 
+ (C0.9-M0.98)"
+Pangene_0.9.Miniprot0.98,ShortRead,All,Bakta,Pangene,9297,2727,12024,"Pangene 
+ (C0.9-M0.98)"
+Pangene_0.9.Miniprot0.99,LongRead,All,Bakta,Pangene,9597,3013,12610,"Pangene 
+ (C0.9-M0.99)"
+Pangene_0.9.Miniprot0.99,ShortRead,All,Bakta,Pangene,9319,2723,12042,"Pangene 
+ (C0.9-M0.99)"
+Pangene_0.9.Miniprot0.9,LongRead,All,Bakta,Pangene,9458,3014,12472,"Pangene 
+ (C0.9-M0.9)"
+Pangene_0.9.Miniprot0.9,ShortRead,All,Bakta,Pangene,9201,2722,11923,"Pangene 
+ (C0.9-M0.9)"
+Pangene_0.95.Miniprot0.95,ShortRead,All,Bakta,Pangene,9357,2757,12114,"Pangene 
+ (C0.95-M0.95)"
+Pangene_0.95.Miniprot0.95,LongRead,All,Bakta,Pangene,9757,3030,12787,"Pangene 
+ (C0.95-M0.95)"
+Pangene_0.95.Miniprot0.98,ShortRead,All,Bakta,Pangene,9371,2762,12133,"Pangene 
+ (C0.95-M0.98)"
+Pangene_0.95.Miniprot0.98,LongRead,All,Bakta,Pangene,9811,3033,12844,"Pangene 
+ (C0.95-M0.98)"
+Pangene_0.95.Miniprot0.99,ShortRead,All,Bakta,Pangene,9403,2766,12169,"Pangene 
+ (C0.95-M0.99)"
+Pangene_0.95.Miniprot0.99,LongRead,All,Bakta,Pangene,9882,3024,12906,"Pangene 
+ (C0.95-M0.99)"
+Pangene_0.95.Miniprot0.9,LongRead,All,Bakta,Pangene,9729,3027,12756,"Pangene 
+ (C0.95-M0.9)"
+Pangene_0.95.Miniprot0.9,ShortRead,All,Bakta,Pangene,9335,2768,12103,"Pangene 
+ (C0.95-M0.9)"
+Pangene_0.98.Miniprot0.95,LongRead,All,Bakta,Pangene,10088,3023,13111,"Pangene 
+ (C0.98-M0.95)"
+Pangene_0.98.Miniprot0.95,ShortRead,All,Bakta,Pangene,9467,2754,12221,"Pangene 
+ (C0.98-M0.95)"
+Pangene_0.98.Miniprot0.98,LongRead,All,Bakta,Pangene,10130,3021,13151,"Pangene 
+ (C0.98-M0.98)"
+Pangene_0.98.Miniprot0.98,ShortRead,All,Bakta,Pangene,9481,2754,12235,"Pangene 
+ (C0.98-M0.98)"
+Pangene_0.98.Miniprot0.99,ShortRead,All,Bakta,Pangene,9532,2751,12283,"Pangene 
+ (C0.98-M0.99)"
+Pangene_0.98.Miniprot0.99,LongRead,All,Bakta,Pangene,10171,3019,13190,"Pangene 
+ (C0.98-M0.99)"
+Pangene_0.98.Miniprot0.9,LongRead,All,Bakta,Pangene,10053,3029,13082,"Pangene 
+ (C0.98-M0.9)"
+Pangene_0.98.Miniprot0.9,ShortRead,All,Bakta,Pangene,9459,2756,12215,"Pangene 
+ (C0.98-M0.9)"
